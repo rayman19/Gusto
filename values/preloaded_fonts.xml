@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/chango</item>
+        <item>@font/coustard</item>
+        <item>@font/fira_sans_italic</item>
+        <item>@font/fredoka_one</item>
+        <item>@font/nunito_black_italic</item>
+        <item>@font/oswald</item>
+        <item>@font/oswald_bold</item>
+        <item>@font/patua_one</item>
+        <item>@font/sarala_bold</item>
+    </array>
+</resources>

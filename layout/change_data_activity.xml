@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/nameFieldChange"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Имя"
+            android:inputType="textPersonName"
+            android:text=""
+            android:textColor="@color/design_default_color_primary"
+            android:textColorHint="@color/design_default_color_primary_dark"
+            android:textSize="15sp"
+
+            app:met_baseColor="#000000"
+            app:met_floatingLabel="highlight"
+            app:met_primaryColor="#F44336"
+            app:met_singleLineEllipsis="true" />
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/surnameFieldChange"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Фамилия"
+            android:inputType="textPersonName"
+            android:text=""
+            android:textColor="@color/design_default_color_primary"
+            android:textColorHint="@color/design_default_color_primary_dark"
+            android:textSize="15sp"
+
+            app:met_baseColor="#000000"
+            app:met_floatingLabel="highlight"
+            app:met_primaryColor="#F44336"
+            app:met_singleLineEllipsis="true" />
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/emaiFieldChange"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:text=""
+            android:textColor="@color/design_default_color_primary"
+            android:textColorHint="@color/design_default_color_primary_dark"
+            android:textSize="15sp"
+
+            app:met_baseColor="#000000"
+            app:met_floatingLabel="highlight"
+            app:met_primaryColor="#F44336"
+            app:met_singleLineEllipsis="true" />
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/passwordFieldChange"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Пароль"
+            android:inputType="textPassword"
+            android:text=""
+            android:textColor="@color/design_default_color_primary"
+            android:textColorHint="@color/design_default_color_primary_dark"
+            android:textSize="15sp"
+
+            app:met_baseColor="#000000"
+            app:met_floatingLabel="highlight"
+            app:met_primaryColor="#F44336"
+            app:met_singleLineEllipsis="true" />
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/phoneFieldChange"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Телефон"
+            android:inputType="phone"
+            android:text=""
+            android:textColor="@color/design_default_color_primary"
+            android:textColorHint="@color/design_default_color_primary_dark"
+            app:met_baseColor="#000000"
+            app:met_floatingLabel="highlight"
+            app:met_primaryColor="#F44336"
+            android:textSize="15sp"
+            app:met_singleLineEllipsis="true" />
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/birthdayFieldChange"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="День рождение"
+            android:inputType="date"
+            android:text=""
+            android:textColor="@color/design_default_color_primary"
+            android:textColorHint="@color/design_default_color_primary_dark"
+            android:textSize="15sp"
+
+            app:met_baseColor="#000000"
+            app:met_floatingLabel="highlight"
+            app:met_primaryColor="#F44336"
+            app:met_singleLineEllipsis="true" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

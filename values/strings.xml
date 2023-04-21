@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">GUSTO</string>
+    <string name="app_name_after">Ещё не с нами</string>
+    <string name="text_bottom">Войдите в свою учетную запись</string>
+    <string name="signIn">Войти</string>
+    <string name="register">Регистрация</string>
+    <string name="hello">Доставлять еду стало ещё проще</string>
+    <string name="title_activity_food">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="searcher">Найти блюдо</string>
+    <string name="special">Спецпредложения</string>
+    <string name="menu">Меню</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="exit">Выход из аккаунта</string>
+    <string name="history_orders">История заказов</string>
+    <string name="modify_data">Изменить данные</string>
+    <string name="sender">Обратная связь</string>
+    <string name="pizza_title">Пицца</string>
+    <string name="drinks">Напитки</string>
+</resources>

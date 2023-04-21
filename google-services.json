@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "266333109720",
+    "project_id": "gustoapp-7d64e",
+    "storage_bucket": "gustoapp-7d64e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:266333109720:android:8984d1295e524a883f46ad",
+        "android_client_info": {
+          "package_name": "com.yesipov.gusto"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "266333109720-h75l2ej3j9gqjklvvvrem7u6i39mi04o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.yesipov.gusto",
+            "certificate_hash": "5c8422e1b29e49ed9e19d5b6e347d468f345f0c9"
+          }
+        },
+        {
+          "client_id": "266333109720-tk64btaqdf5urg38sdm5kh0ravnotgj5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKGFJGbjg1d7z7uv9lUDU8-aUxZgJReMg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "266333109720-tk64btaqdf5urg38sdm5kh0ravnotgj5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
